@@ -1,0 +1,44 @@
+{
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@types/node": "^16.6.1",
+    "date-fns": "^2.23.0",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.5.1",
+    "graphql-playground-middleware-koa": "^1.6.21",
+    "koa": "^2.13.1",
+    "koa-graphql": "^0.9.0",
+    "koa-logger": "^3.2.1",
+    "koa-mount": "^4.0.0",
+    "mongodb": "^4.1.0",
+    "mongodb-memory-server": "^7.3.6"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/koa-graphql": "^0.8.5",
+    "@types/koa-logger": "^3.1.1",
+    "@types/koa-mount": "^4.0.0",
+    "@types/koa__cors": "^3.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint": "^7.32.0",
+    "eslint-config-koa": "^2.0.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "start": "ts-node",
+    "dev": "nodemon"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT"
+}
